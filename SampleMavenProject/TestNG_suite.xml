@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Test Suite" parallel="classes" thread-count="3">
+<test name = "Test cases">
+<classes>
+<class name="com.test.SampleMavenProject.ParallelExecution"></class>
+<class name="com.test.SampleMavenProject.GetRequestGoogle"></class>
+
+
+
+<!-- <class name="com.test.SampleMavenProject.GetRequestGoogle"></class>
+<class name="com.test.SampleMavenProject.GetAllUsers"></class>
+<class name="com.test.SampleMavenProject.GetSingleUser"></class>
+<class name="com.test.SampleMavenProject.PostAUser"></class>
+<class name="com.test.SampleMavenProject.PostRequest"></class>
+<class name="com.test.SampleMavenProject.PutRequest"></class>
+<class name="com.test.SampleMavenProject.PatchRequest"></class>
+<class name="com.test.SampleMavenProject.deleteRequest"></class>
+<class name="com.test.SampleMavenProject.ChainMethod"></class>
+<class name="com.test.SampleMavenProject.deleteMultipleRecord"></class>-->
+</classes>
+</test>
+</suite>
