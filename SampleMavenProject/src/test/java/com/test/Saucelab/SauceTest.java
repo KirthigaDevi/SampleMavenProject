@@ -17,7 +17,7 @@ public class SauceTest extends SaucelabBase {
 	public void OpenGoogle() {
 
 		driver.navigate().to("https://www.amazon.in/");
-		WebDriverWait wait = new WebDriverWait(driver, 120);
+		//WebDriverWait wait = new WebDriverWait(driver, 120);
 		  driver.findElement(By.linkText("Sign in")).click();
 		  driver.findElement(By.id("ap_email")).sendKeys("kirthigatest@gmail.com");
 		  driver.findElement(By.id("continue")).click();;
@@ -30,7 +30,7 @@ public class SauceTest extends SaucelabBase {
 	public void OpenFirefox() {
 
 		driver.navigate().to("https://www.amazon.in/");
-		WebDriverWait wait = new WebDriverWait(driver, 120);
+		//WebDriverWait wait = new WebDriverWait(driver, 120);
 		driver.navigate().to("https://www.amazon.in/");
 		driver.findElement(By.linkText("Sign in")).click();
 		driver.findElement(By.id("ap_email")).sendKeys("kirthigatest@gmail.com");

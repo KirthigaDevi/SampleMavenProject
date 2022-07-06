@@ -9,152 +9,65 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Test Suite for SauceLab</th></tr>
-<tr><td><a href="#t0">Sauce Test - FF</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">12,238</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Sauce Test - Chrome</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">12,009</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">4</th><th class="num">0</th><th class="num">0</th><th class="num">24,247</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Sauce Test - Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">25,771</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Sauce Test - FF</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">34,312</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">60,083</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite for SauceLab</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sauce Test - FF &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.test.Saucelab.SauceTest</td><td><a href="#m0">SauceSetup</a></td><td rowspan="1">1656998047644</td><td rowspan="1">11547</td></tr><tr class="failedeven"><td><a href="#m1">tearDown</a></td><td rowspan="1">1656998059723</td><td rowspan="1">91</td></tr><tr><th colspan="4">Sauce Test - FF &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.test.Saucelab.SauceTest</td><td><a href="#m2">OpenFirefox</a></td><td rowspan="1">1656998059557</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">OpenGoogle</a></td><td rowspan="1">1656998059705</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Sauce Test - Chrome &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.test.Saucelab.SauceTest</td><td><a href="#m4">SauceSetup</a></td><td rowspan="1">1656998047634</td><td rowspan="1">11430</td></tr><tr class="failedeven"><td><a href="#m5">tearDown</a></td><td rowspan="1">1656998059610</td><td rowspan="1">1</td></tr><tr><th colspan="4">Sauce Test - Chrome &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.test.Saucelab.SauceTest</td><td><a href="#m6">OpenFirefox</a></td><td rowspan="1">1656998059354</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">OpenGoogle</a></td><td rowspan="1">1656998059416</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite for SauceLab</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sauce Test - Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.Saucelab.SauceTest</td><td><a href="#m0">OpenGoogle</a></td><td rowspan="1">1657088326212</td><td rowspan="1">4444</td></tr><tr><th colspan="4">Sauce Test - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.Saucelab.SauceTest</td><td><a href="#m1">OpenFirefox</a></td><td rowspan="1">1657088317120</td><td rowspan="1">9077</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Sauce Test - FF &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.Saucelab.SauceTest</td><td><a href="#m2">OpenGoogle</a></td><td rowspan="1">1657088334715</td><td rowspan="1">4528</td></tr><tr><th colspan="4">Sauce Test - FF &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.Saucelab.SauceTest</td><td><a href="#m3">OpenFirefox</a></td><td rowspan="1">1657088321822</td><td rowspan="1">12891</td></tr></tbody>
 </table>
-<h2>Sauce Test - FF</h2><h3 id="m0">com.test.Saucelab.SauceTest#SauceSetup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: failed serving request POST /wd/hub/session: Unauthorized
+<h2>Sauce Test - Chrome</h2><h3 id="m0">com.test.Saucelab.SauceTest#OpenGoogle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign in&quot;}
+  (Session info: chrome=103.0.5060.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
 System info: host: &apos;ASPBS-263&apos;, ip: &apos;172.24.133.85&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}], desiredCapabilities=Capabilities {browserName: firefox, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+Command: [0e8382c585aa48bb9bae6e9d7975fa63, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e8382c585aa48bb9bae6e9d7975fa63
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.test.Saucelab.SaucelabBase.SauceSetup(SaucelabBase.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at com.test.Saucelab.SauceTest.OpenGoogle(SauceTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.Saucelab.SauceTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at com.test.Saucelab.SaucelabBase.tearDown(SaucelabBase.java:67)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.Saucelab.SauceTest#OpenFirefox</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: failed serving request POST /wd/hub/session: Unauthorized
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.Saucelab.SauceTest#OpenFirefox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sauce Test - FF</h2><h3 id="m2">com.test.Saucelab.SauceTest#OpenGoogle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign in
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
 System info: host: &apos;ASPBS-263&apos;, ip: &apos;172.24.133.85&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}], desiredCapabilities=Capabilities {browserName: firefox, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+Command: [983c48f40beb4e05850dd75bc8d7a42e, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 4388, moz:profile: C:\Users\sauce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), selenium:webdriver.remote.quietExceptions: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: fbaf8b56-1c13-4785-aae5-04b...}
+Session ID: 983c48f40beb4e05850dd75bc8d7a42e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.test.Saucelab.SaucelabBase.SauceSetup(SaucelabBase.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at com.test.Saucelab.SauceTest.OpenGoogle(SauceTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.test.Saucelab.SauceTest#OpenGoogle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;ASPBS-263&apos;, ip: &apos;172.24.133.85&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}], desiredCapabilities=Capabilities {browserName: firefox, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.test.Saucelab.SaucelabBase.SauceSetup(SaucelabBase.java:54)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Sauce Test - Chrome</h2><h3 id="m4">com.test.Saucelab.SauceTest#SauceSetup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;ASPBS-263&apos;, ip: &apos;172.24.133.85&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.test.Saucelab.SaucelabBase.SauceSetup(SaucelabBase.java:54)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.test.Saucelab.SauceTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at com.test.Saucelab.SaucelabBase.tearDown(SaucelabBase.java:67)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.test.Saucelab.SauceTest#OpenFirefox</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;ASPBS-263&apos;, ip: &apos;172.24.133.85&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.test.Saucelab.SaucelabBase.SauceSetup(SaucelabBase.java:54)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.test.Saucelab.SauceTest#OpenGoogle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;ASPBS-263&apos;, ip: &apos;172.24.133.85&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: latest, platformName: Windows 10, sauce:options: Capabilities {accessKey: 0e...}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.test.Saucelab.SaucelabBase.SauceSetup(SaucelabBase.java:54)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.Saucelab.SauceTest#OpenFirefox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
